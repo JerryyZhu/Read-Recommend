@@ -1,0 +1,1 @@
+curl -X POST --data "first_name=first&last_name=last&email=test2@email.com&password=password" http://127.0.0.1:9000/api/v1/user/register

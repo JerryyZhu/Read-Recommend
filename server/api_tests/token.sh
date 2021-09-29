@@ -1,0 +1,2 @@
+#run this after running the code in register.sh  The user created in that test shouldn't exist in the database by default
+curl -X POST --data "username=test2@email.com&password=password" http://127.0.0.1:9000/api/v1/login/

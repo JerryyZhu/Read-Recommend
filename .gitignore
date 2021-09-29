@@ -1,0 +1,6 @@
+/client/node_modules/
+/env/
+/server/env/
+*.pyc
+*.pyo
+.vscode

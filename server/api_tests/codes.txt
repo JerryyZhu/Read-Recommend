@@ -1,0 +1,13 @@
+register - already exist - 403
+login - django default
+token - django default
+api/v1/book/<int:id> - if no book has that id - 404
+api/v1/inc_book_reads/<int:id> - if no book has that id - 404
+api/v1/get_all_book_reviews/<int:id> - if no book has that id - 404
+api/v1/view_review/<int:book_pk> - if no book, review exists - 404
+api/v1/view_review/<int:book_pk>/<int:user_pk> if no book, review, user exists - 404
+api/v1/create_or_edit_review - if no book exists -404
+                               if no book, rating field is provided - 400
+                               if rating not between 1 and 5 - 400
+api/v1/delete_review - if no book, review exists -404
+                       if no book field is provided - 400
