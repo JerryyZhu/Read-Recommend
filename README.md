@@ -16,6 +16,11 @@ A web applicaton similar to GoodReads offering with more modern UI. This was a g
 - React with Ant Design for UI Framework
 - Django Python for Backend
 - Machine Learning - Collaboration Filtering with Python and FastAI
+
+## Screenshots
+![](https://github.com/JerryyZhu/Read-Recommend/blob/main/screenshots/Book.png)
+![](https://github.com/JerryyZhu/Read-Recommend/blob/main/screenshots/Profile.png)
+![](https://github.com/JerryyZhu/Read-Recommend/blob/main/screenshots/Book%20Challenges.png)
   
 ## Running back-end locally
 
